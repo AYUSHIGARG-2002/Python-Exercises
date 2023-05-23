@@ -1,0 +1,89 @@
+--Playing with BODMAS
+1. Declare 5 variables
+		int a = 21
+		int b = 6
+		int c = 3
+		int d = 1
+	1a. Print result of a - b / c
+	1b. Print result of (a - b) / c
+	1c. print result of a/b*c+d
+	1d. print result of a/(b*(c+d))
+2. Accept 5 variables from command prompt as paramter from Java program
+		float a
+		float b
+		float c
+		float d
+		float e
+	2a. Print result of ++a
+	2b. Print result of a++
+	2c. print result of (a++ + b++ ) / c++
+	2d. print result of a/(b*(c + ++d))
+	2e. Print result of a^b++ + b ^ ++c + c ^ --d + d ^ e--
+
+3. Declare 5 variables as below
+	float a = <put value>
+	double b = <Put value> 
+	byte c = <Put Value>
+	short d = <Put Value>
+	long e = <Put Value>
+	
+	short result = <Type cast it to short> e
+	short result_2 = <type cast it to short> (c - e)
+	short result_3 = <type cast it to short> e - a
+	
+	//Try other combinations of long to int, int to short, doublt to float, float to byte -- reducing.
+	// Try other combination of int to long , short to long, float to double, byte to float -- expanding.
+4. Simple Calculator using Switch Case Statements.
+
+	1. Take two numbers (Example 10, 2).
+	2. Accept operation to be carried out (a = addition, s = subtraction, m = multiplication, d = division
+	
+	With swith case statement perform any of these operations. 
+	User should give numbers and operations.
+--Loops
+5. Using calculator from previous exercise (Step 4), keep performing operations in loop till end user wants.
+	Add additional functionality to calculator
+		1. Power 
+		2. E^
+		3. Modulo operator
+		4. Trignometric functions.
+6. Take inputs and build factorial functions.
+	5! = 5x4x3x2x1
+
+7. Using '*' and nested for loops print below shapes in Console
+7a.
+* * * * * * * *
+7b.
+* * * * * * * * 
+*             *
+*             *
+*             *
+* * * * * * * *
+7c
+*
+* *
+*  *
+*   *
+*    *
+*     *
+*      *
+* * * * *
+7d.
+          *
+         *  *
+        *    *
+       *      *
+      *         *
+     *           *
+    * * * * * * * *
+8. Take 10 integers as input and add them to an integer array. Then write code find average of an Array.
+9. Write a Java Program to take 10 input elements in any random order and sort the array and print elements of array in sorted (both ascending and descending) order.
+10. Write a java program to store 10 elements in an array and search for the element in arrary.
+11. Take a name of person and reverse the string. Find out if it is a palindrome.
+12. write a java program to compare two array. There are two types of equalities, write code for both equalities.
+	1. Numbers in arrary are same (irrespective of position).
+	2. Both numbers in arrary and positions have to be same to be equal.
+13. Write a java program to fill arrary of length with 100 elemements. Random integers will be filled in the arrary.
+14. Write a java program to remove duplicates from the above array ( in step 13).
+15. implement a stack data sturucture using array.
+16. implement a queue data structure using array.
